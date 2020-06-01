@@ -1,0 +1,188 @@
+body {
+    font-size          : 16px;
+    /* color           : #fff; */
+    background-color   : rgb(200, 243, 11);
+    font-family        : Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 5px;
+}
+
+#ely {
+    margin-right: 15px;
+}
+
+.bi::before {
+    display          : inline-block;
+    content          : "";
+    background-image : url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size  : 1rem 1rem;
+    margin-right     : 8px;
+}
+
+
+
+/** HEADER **/
+#header-nav {
+    background-color: rgb(48, 14, 1);
+    border-radius   : 0;
+    border          : 0;
+    color           : #E7E7E7;
+    text-align      : center;
+}
+
+
+#collapsibleNavbar {
+    position: absolute !important;
+    right   : 30px !important;
+    top     : 15px !important;
+}
+
+.navbar-brand {
+    /* Restaurant name */
+    font-family   : 'Lora', serif;
+    color         : #f2f5f0;
+    font-size     : 1.8em;
+    text-transform: uppercase;
+    font-weight   : bold;
+    text-shadow   : 1px 1px 1px black;
+    margin        : 20px;
+    line-height   : .8;
+    padding-top   : 20px;
+    height        : 80px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-right  : 15px;
+    font-size     : 1em;
+    text-transform: uppercase;
+    margin-top    : 5px;
+    text-align    : center;
+}
+
+a {
+    color: #ecf1e9 !important;
+}
+
+#nav-item a span {
+    font-size: 1.8em;
+}
+
+#nav-item a {
+    color     : #951C49;
+    text-align: center;
+}
+
+#nav-item a:hover {
+    background: #E7E7E7;
+}
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .visible-xs {
+        display: block !important;
+    } */
+}
+
+@media (min-width: 767px) {}
+
+
+.navbar-header button .navbar-toggler {
+    clear: both;
+
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-header button.navbar-toggler,
+.navbar-header .icon-bar {
+    border: 1.5px solid #f3dbda;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {}
+
+
+/* End Header */
+
+.navbar-header button .navbar-toggler,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button .navbar-toggler {
+    clear     : both;
+    margin-top: -30px;
+}
+
+
+/* Header */
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    padding-top : 10px;
+    font-size   : 5vw;
+    margin-right: 40px;
+    /* 1vw = 1% of viewport width */
+}
+
+#collapsibleNavbar a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+
+#collapsibleNavbar a span {
+    /* Collapsed nav menu glyph */
+    font-size   : 1em;
+    margin-right: 5px;
+}
+
+/* HOME PAGE  */
+#main-content {
+    width        : 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size    : 2.9em;
+    font-weight  : bold;
+    margin-top   : 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size    : 1.6em;
+    font-weight  : bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+    width           : 100%;
+    padding         : 20px;
+    background-color: #e2aff1;
+    margin-bottom   : 60px;
+    box-shadow      : 0 0 80px #18580b;
+}
+
+
+/** END HOME PAGE **/
